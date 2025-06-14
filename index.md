@@ -1,3 +1,4 @@
 ---
-title: Welcome to my blog!
+title: Guti's Blog!
 ---
+# Hey! This is my first blog!

@@ -1,9 +1,86 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
   <diagram name="Page-1" id="IfVE8lDe02ks5_BYXX1n">
-    <mxGraphModel>
+    <mxGraphModel dx="1668" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Thought of words to use. Settled on: &lt;b style=&quot;&quot;&gt;RESET &lt;/b&gt;&amp;amp; &lt;b style=&quot;&quot;&gt;DRIVE&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Used ASCII Table provided. Find Decimals.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Paired the words with their corresponding ASCII Decimal place.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;RESET &lt;/b&gt;= 82 69 83 69 84&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DRIVE &lt;/b&gt;= 68 82 73 86 69&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nPwBjIHJBBnww_pnVhFz-6" target="nPwBjIHJBBnww_pnVhFz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-6" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;Divided the decimal of each letter by 2. By dividing by 2, I knew I would find the binary via remainders. I listed it next to the result.&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-7" value="&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Example:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;82 &lt;/b&gt;/ 2 = 41 R0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;41 / 2 = 20.5 R1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;20 / 2 = 10 R0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;10 / 2 = 5 R0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;5 / 2 = 2.5 R1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2 / 2 = 1 R0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;1 / 2 = .5 R1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;7 digits so far. Add one R0.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Thus, from bottom to top:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;82 = &lt;b&gt;01010010&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="620" y="140" width="210" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-8" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;I put the two words&#39; 8-digit binaries side by side and did an XOR comparison.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;I put the 8-digit binaries of the new encryption message (that I turned to hex decimals) and the key word (&lt;b&gt;DRIVE&lt;/b&gt;) next to each other (one on top and one on the bottom).&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-13" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;To get the encryption message to hex decimal, all I had to do was use the ASCII table.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="230" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-14" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;PART 1&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-15" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;PART 2&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-16" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;I did an XOR comparison and found that the 8-digit binaries I got matched the 8-digit binaries of each letter in &lt;b&gt;RESET&lt;/b&gt;.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="810" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;" edge="1" parent="1" source="nPwBjIHJBBnww_pnVhFz-1" target="nPwBjIHJBBnww_pnVhFz-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="260" as="sourcePoint" />
+            <mxPoint x="260" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;" edge="1" parent="1" target="nPwBjIHJBBnww_pnVhFz-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174.66" y="480" as="sourcePoint" />
+            <mxPoint x="174.66" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-20" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1" source="nPwBjIHJBBnww_pnVhFz-5" target="nPwBjIHJBBnww_pnVhFz-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="575" as="sourcePoint" />
+            <mxPoint x="340" y="525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="530" />
+              <mxPoint x="320" y="420" />
+              <mxPoint x="320" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-21" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1" source="nPwBjIHJBBnww_pnVhFz-6" target="nPwBjIHJBBnww_pnVhFz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474.58" y="250" as="sourcePoint" />
+            <mxPoint x="474.58" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-22" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1" source="nPwBjIHJBBnww_pnVhFz-8" target="nPwBjIHJBBnww_pnVhFz-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="480" as="sourcePoint" />
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nPwBjIHJBBnww_pnVhFz-28" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1" source="nPwBjIHJBBnww_pnVhFz-10" target="nPwBjIHJBBnww_pnVhFz-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="880" as="sourcePoint" />
+            <mxPoint x="290" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
